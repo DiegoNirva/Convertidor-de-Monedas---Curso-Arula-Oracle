@@ -1,5 +1,6 @@
 package ConversorDeMonedas.model;
 
-public record DatosConsulta(String time_last_update_utc,
-                            String base_code) {
+import java.util.Map;
+
+public record DatosConsulta(Map<String, Double> conversion_rates) {
 }
