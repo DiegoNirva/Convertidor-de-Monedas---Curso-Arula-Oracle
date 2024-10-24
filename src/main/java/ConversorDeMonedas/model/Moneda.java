@@ -1,6 +1,7 @@
 package ConversorDeMonedas.model;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 public class Moneda {
 
@@ -12,6 +13,8 @@ public class Moneda {
     double ImporteACambiar;
 
     BigDecimal ImporteCambiado;
+
+    String FechaDeConversion;
 
     public Moneda() {
     }
@@ -64,14 +67,20 @@ public class Moneda {
         ImporteCambiado = importeCambiado;
     }
 
+    public void setFechaDeConversion(String fechaDeConversion) {
+        FechaDeConversion = fechaDeConversion;
+    }
+
     @Override
     public String toString() {
         return "------------DATOS DE OPERACION-----------------------" + '\n' +
+                "Fecha y hora: "+ FechaDeConversion + '\n' +
                 "Moneda: " + monedaOrigen + '\n' +
                 "Moneda a convertir: " + monedaAConvertir + '\n' +
                 "Tipo de cambio: "+ "$" + valorMonedaAConvertir +" "+ monedaAConvertir +'\n' +
                 "Importe a cambiar: "+ "$" + ImporteACambiar +" "+ monedaOrigen + '\n' +
                 "Importe a Recibir = "+ "$" + ImporteCambiado +" " + monedaAConvertir+  '\n' +
+                "**NO SE CONTENPLAN LOS IMPUESTOS SOBRE LA TASA DE CAMBIO PERTENECIENTE A CADA PAIS**"+'\n'+
                 "----------------------------------------------------";
 
     }
