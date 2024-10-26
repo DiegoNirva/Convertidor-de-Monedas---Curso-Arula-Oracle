@@ -22,7 +22,7 @@
   <img src="https://i.ibb.co/WcrKSSH/PasoUno.png" alt="PasoUno" border="0">
   <li>Ingrese los tipos de moneda.</li>
   <p>Se recomienda ingresar las siglas aceptadas por la API, consultar documentacion en:<a>https://www.exchangerate-api.com/docs/supported-currencies</a></p>
-  <img src="https://i.ibb.co/K9ms66H/PasoDos.jpg" alt="PasoDos" border="0">.
+  <img src="https://i.ibb.co/K9ms66H/PasoDos.jpg" alt="PasoDos" border="0">
   <li>Datos de salida</li>
   <img src="https://i.ibb.co/kyCpCbS/Paso-Tress.jpg" alt="Paso-Tress" border="0">
 </ol>
